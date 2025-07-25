@@ -1,0 +1,24 @@
+# Ignore large or unnecessary folders
+downloads/
+patches/
+
+# Kernel module build outputs
+*.o
+*.ko
+*.mod.*
+*.cmd
+*.symvers
+*.order
+*.tmp
+.tmp_versions/
+
+# Misc
+*.log
+*~
+*.swp
+*.swo
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
